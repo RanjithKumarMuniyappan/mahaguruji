@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+
+<html lang="zxx">
+
+<head>
+
+    <!-- Meta Options -->
+
+    <meta charset="utf-8">
+
+    <meta name="google-site-verification" content="BQLvwOc3TzhPqvgXBkV822yxBipYeNAacQPlTiOmIJM" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZSLMYPW8S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8ZSLMYPW8S');
+    </script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/webp" href="assets/mlx_assets/mahaguru_loader_logo.webp" />
+
+
+
+    <!-- Title -->
+
+    <title>Mahaguruji | Blog Details</title>
+
+
+
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+
+
+    <!-- Animate on scroll -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+
+
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+    <!-- Colors -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+
+
+
+    <!-- Responsive -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom_style.css" />
+
+
+</head>
+
+<body>
+
+    <!-- Loader Start -->
+    <div class="preloader" id="preloader">
+        <svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+            <path
+                d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z">
+            </path>
+        </svg>
+        <div class="inner">
+            <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+            <figure><img src="assets/mlx_assets/mahaguru_loader_logo.webp" alt="Image" class="guruji_loader_img">
+            </figure>
+            <small>Loading</small>
+        </div>
+        <!-- end inner -->
+    </div>
+
+    <!-- Loader End -->
+    <!-- Header One Start -->
+
+    <header id="header" x-data="{ isOpen: false }" class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    </header>
+
+    <!-- Header One End -->
+
+
+
+    <!-- Banner Start -->
+
+    <section class="banner position-relative">
+
+        <div class="parallax aboutus"
+            style="background-image: url(assets/mlx_assets/images/maharishi_blog/blog_detail_header.webp);"></div>
+
+        <!-- <div class="banner-data text-center">
+
+            <h2 class="text-white font-bold">Blog Detail</h2>
+
+            <ul class="flex-all">
+
+                <li><a href="JavaScript:void(0)" class="text-white">Home</a></li>
+
+                <li><a href="JavaScript:void(0)" class="text-white">Blog Detail</a></li>
+
+            </ul>
+
+            <img src="https://via.placeholder.com/50x65" alt="Banner Logo">
+
+        </div> -->
+
+    </section>
+
+    <!-- Banner End -->
+
+
+
+    <!-- Sermon Detail Start -->
+
+    <section class="gap blog-detail">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- <div class="col-lg-8 col-md-12 col-sm-12">
+
+                    <div class="blog-meta">
+
+                        <img class="img-fluid w-100" src="https://via.placeholder.com/770x430" alt="Blog image">
+
+                        <ul>
+
+                            <li class="date">21 Dec, 2021</li>
+
+                        </ul>
+
+                        <h2>Chris Sibbald talks about taking the Global Leadership Lunch online</h2>
+
+                        <ul class="blog-author">
+
+                            <li>Posted by <a href="JavaScript:void(0)">Thomas Smith</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="content">
+
+                        <p>
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+                            ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo
+                            si ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            veli se cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt culpa qui officia deserunt mollit anim id est laborum.
+
+                        </p>
+
+                        <p>
+
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni si ut
+                            ali eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui offi serunt mollit anim id est laborum.
+
+                        </p>
+
+
+
+                    </div>
+
+
+                </div> -->
+
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="blog-meta">
+                        <img id="blog-image" class="img-fluid w-100" src="" alt="Blog image">
+                        <ul>
+                            <li id="blog-date" class="date"></li>
+                        </ul>
+                        <h2 id="blog-title"></h2>
+                        <ul class="blog-author">
+                            <li>Posted <a href="javascript:void(0)" id="blog-author"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="content">
+                        <h3 id="blog-detail-title"></h3>
+                        <p id="blog-content"></p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+
+                    <aside>
+
+                        <div class="blog-sidebar">
+
+                            <div class="widget widget-recent-articles">
+
+                                <h3>Recent Articles</h3>
+
+                                <ul>
+
+                                    <li class="d-flex align-items-center">
+
+                                        <img class="rounded-circle"
+                                            style="width: 50px; height: 50px; object-fit: cover;"
+                                            src="assets/mlx_assets/images/maharishi_blog/maharishi_blog_list/Indian Knowledge Tradition in Crisis – Brahmachari Girish Ji.webp"
+                                            alt="Sidebar Image">
+
+                                        <div>
+
+                                            <p
+                                                class="post-date theme-bg-clr text-white font-bold d-inline-flex text-uppercase">
+                                                03/07/2026</p>
+
+                                            <a href="maharishi_blog_details.html?id=10"
+                                                class="d-flex font-bold">Safeguarding Indian Knowledge and the People of
+                                                India</a>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex align-items-center">
+
+                                        <img class="rounded-circle"
+                                            style="width: 50px; height: 50px; object-fit: cover;"
+                                            src="assets/mlx_assets/images/maharishi_blog/maharishi_blog_list/Life is Bliss Not Struggle.webp"
+                                            alt="Sidebar Image One">
+
+                                        <div>
+
+                                            <p
+                                                class="post-date theme-bg-clr text-white font-bold d-inline-flex text-uppercase">
+                                                02/07/2026</p>
+
+                                            <a href="maharishi_blog_details.html?id=12" class="d-flex font-bold">Future
+                                                Suffering is to be Prevented</a>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class="d-flex align-items-center">
+
+                                        <img class="rounded-circle"
+                                            style="width: 50px; height: 50px; object-fit: cover;"
+                                            src="assets/mlx_assets/images/maharishi_blog/maharishi_blog_list/Consciousness Is Life – Do Not Postpone Living.webp"
+                                            alt="Sidebar Image Two">
+
+                                        <div>
+
+                                            <p
+                                                class="post-date theme-bg-clr text-white font-bold d-inline-flex text-uppercase">
+                                                01/07/2026</p>
+
+                                            <a href="maharishi_blog_details.html?id=14"
+                                                class="d-flex font-bold">Guidelines for Plantation in Institutional
+                                                Campuses</a>
+
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <h3>Categories</h3>
+
+                            <ul>
+
+                                <li class="d-flex justify-content-between align-items-center light-bg">
+
+                                    <a href="JavaScript:void(0)" class="font-semi-bold">Charity Causes</a>
+
+                                    <span
+                                        class="flex-all theme-bg-clr text-white font-semi-bold rounded-circle">12</span>
+
+                                </li>
+
+                                <li class="d-flex justify-content-between align-items-center light-bg">
+
+                                    <a href="JavaScript:void(0)" class="font-semi-bold">Programs</a>
+
+                                    <span
+                                        class="flex-all theme-bg-clr text-white font-semi-bold rounded-circle">08</span>
+
+                                </li>
+
+                                <li class="d-flex justify-content-between align-items-center light-bg">
+
+                                    <a href="JavaScript:void(0)" class="font-semi-bold">Animals News</a>
+
+                                    <span
+                                        class="flex-all theme-bg-clr text-white font-semi-bold rounded-circle">06</span>
+
+                                </li>
+
+                                <li class="d-flex justify-content-between align-items-center light-bg">
+
+                                    <a href="JavaScript:void(0)" class="font-semi-bold">Fundraiser Help</a>
+
+                                    <span
+                                        class="flex-all theme-bg-clr text-white font-semi-bold rounded-circle">65</span>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <!-- <div class="widget widget-popular-posts">
+
+                                <h3>Popular Posts</h3>
+
+                                <ul>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/290x190"
+                                                alt="Popular Blog Img One">
+
+                                        </figure>
+
+                                        <a class="font-bold" href="blog-detail.html">Church Protection and kids Social
+                                            Inclusion</a>
+
+                                        <ul class="blog-meta d-flex">
+
+                                            <li>May 13, 2020</li>
+
+                                            <li>19k views</li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/290x190"
+                                                alt="Popular Blog Img Two">
+
+                                        </figure>
+
+                                        <a class="font-bold" href="blog-detail.html">Church Protection and kids Social
+                                            Inclusion</a>
+
+                                        <ul class="blog-meta d-flex">
+
+                                            <li>May 13, 2020</li>
+
+                                            <li>19k views</li>
+
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+
+                            </div> -->
+
+                        <!-- <div class="widget widget-trending-videos">
+
+                                <h3>Trending Videos</h3>
+
+                                <ul>
+
+                                    <li>
+
+                                        <div class="position-relative">
+
+                                            <figure>
+
+                                                <img class="img-fluid w-100" src="https://via.placeholder.com/290x190"
+                                                    alt="Trending Video Img One">
+
+                                            </figure>
+
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=uemObN8_dcw"
+                                                class="video-btn theme-bg-clr flex-all d-inline-flex rounded-circle">
+
+                                                <svg id="plghfsfsfdsfghay-btn"
+                                                    enable-background="new 0 0 494.942 494.942"
+                                                    viewBox="0 0 494.942 494.942" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m35.353 0 424.236 247.471-424.236 247.471z" />
+                                                </svg>
+
+                                            </a>
+
+                                        </div>
+
+                                        <a class="font-bold" href="JavaScript:void(0)">Church Protection and kids Social
+                                            Inclusion</a>
+
+                                        <ul class="blog-meta d-flex">
+
+                                            <li>10M views</li>
+
+                                            <li>1 month ago</li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="position-relative">
+
+                                            <figure>
+
+                                                <img class="img-fluid w-100" src="https://via.placeholder.com/290x190"
+                                                    alt="Trending Video Img Two">
+
+                                            </figure>
+
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=uemObN8_dcw"
+                                                class="video-btn theme-bg-clr flex-all d-inline-flex rounded-circle">
+
+                                                <svg id="plghfghay-btn" enable-background="new 0 0 494.942 494.942"
+                                                    viewBox="0 0 494.942 494.942" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m35.353 0 424.236 247.471-424.236 247.471z" />
+                                                </svg>
+
+                                            </a>
+
+                                        </div>
+
+                                        <a class="font-bold" href="JavaScript:void(0)">Church Protection and kids Social
+                                            Inclusion</a>
+
+                                        <ul class="blog-meta d-flex">
+
+                                            <li>10M views</li>
+
+                                            <li>1 month ago</li>
+
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+
+                            </div> -->
+
+                        <!-- <div class="widget widget-instagram-photos">
+
+                                <h3>Instagram Photos</h3>
+
+                                <ul>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img One">
+
+                                        </figure>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img Two">
+
+                                        </figure>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img Three">
+
+                                        </figure>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img Four">
+
+                                        </figure>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img Five">
+
+                                        </figure>
+
+                                    </li>
+
+                                    <li>
+
+                                        <figure>
+
+                                            <img class="img-fluid w-100" src="https://via.placeholder.com/145x120"
+                                                alt="Insta Img Six">
+
+                                        </figure>
+
+                                    </li>
+
+                                </ul>
+
+                                <a href="JavaScript:void(0)" class="theme-btn w-100 justify-content-center">Follow
+                                    Us</a>
+
+                            </div> -->
+
+                </div>
+
+                </aside>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sermon Detail End -->
+
+
+
+
+
+    <!-- Subscribe Start -->
+
+    <section class="subscribe">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 col-md-12 col-sm-12">
+
+                    <h3 class="text-white">Let’s Keep in Touch!</h3>
+
+                    <p class="text-white">Subscribe to keep up with fresh news and exciting updates.</p>
+
+                </div>
+
+                <div class="col-lg-7 col-md-12 col-sm-12">
+
+                    <form>
+
+                        <input type="text" name="Text" placeholder="Enter Your Email Address...">
+
+                        <button>Subscribe</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Subscribe End -->
+
+
+
+    <!-- Footer One Start -->
+
+    <div id="footer"></div>
+
+    <!-- Footer One End -->
+
+
+
+    <!-- Scroll to top -->
+
+    <button id="scrollTop" class="scrollTopStick"><svg viewBox="0 0 490.523 490.523" fill="#fff" height="15">
+            <path style="fill:#FFC107;"
+                d="M487.411,355.047L252.744,120.38c-4.165-4.164-10.917-4.164-15.083,0L2.994,355.047 c-4.093,4.237-3.976,10.99,0.262,15.083c4.134,3.993,10.687,3.993,14.821,0l227.115-227.115l227.115,227.136 c4.237,4.093,10.99,3.976,15.083-0.261c3.993-4.134,3.993-10.688,0-14.821L487.411,355.047z">
+            </path>
+            <path
+                d="M479.859,373.266c-2.831,0.005-5.548-1.115-7.552-3.115L245.192,143.015L18.077,370.151 c-4.237,4.093-10.99,3.976-15.083-0.262c-3.993-4.134-3.993-10.687,0-14.821l234.667-234.667c4.165-4.164,10.917-4.164,15.083,0 l234.667,234.667c4.159,4.172,4.148,10.926-0.024,15.085C485.388,372.146,482.681,373.265,479.859,373.266z">
+            </path>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+        </svg></button>
+
+    <!-- Donation Modal -->
+    <div class="modal fade donation-model" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Donate Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="donation-data">
+
+                        <h2>Stand Up the Church Climate Crisis</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed totam rem ape eaque.</p>
+
+                        <div class="donation-form">
+
+                            <div class="custom-donation-amount"><span class="text-white">$</span> <input
+                                    class="donated_amount" type="number" placeholder="Custom Amount">
+
+                            </div>
+
+                            <ul class="list-unstyled aos-init aos-animate">
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">5</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">10</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">20</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">30</span></a>
+
+                                </li>
+
+                            </ul>
+
+                            <a class="theme-btn" href="JavaScript:void(0)">Donate Now</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+
+    <script src="assets/js/jquery.min.js"></script>
+
+
+
+    <!-- Animate on scroll Js -->
+
+    <script src="assets/js/aos.js"></script>
+
+
+    <!-- Bootstrap Js -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!-- Fancybox Js -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- Custom Js -->
+
+    <script src="assets/js/custom.js"></script>
+
+    <script src="./js/header_footer_provider.js"></script>
+    <script src="./js/maharishi_details.js"></script>
+
+</body>
+
+</html>

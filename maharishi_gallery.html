@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html lang="zxx">
+
+<head>
+
+    <!-- Meta Options -->
+
+    <meta charset="utf-8">
+
+	<meta name="google-site-verification" content="BQLvwOc3TzhPqvgXBkV822yxBipYeNAacQPlTiOmIJM" />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZSLMYPW8S"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-8ZSLMYPW8S');
+	</script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/webp" href="assets/mlx_assets/mahaguru_loader_logo.webp" />
+
+
+
+    <!-- Title -->
+<title>Mahaguruji | Gallery</title>
+    
+
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/60x50">
+
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+
+    <!-- Animate on scroll -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+    <!-- Colors -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+
+
+
+    <!-- Fancy Box -->
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+
+
+
+    <!-- Responsive -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom animation for gallery fade-in */
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fade-in-up 0.5s ease-in-out;
+        }
+        /* Hide scrollbar for the timeline */
+        .timeline-scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom_style.css">
+
+</head>
+
+<body>
+
+    <!-- Loader Start -->
+    <div class="preloader" id="preloader">
+        <svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+            <path
+                d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z">
+            </path>
+        </svg>
+        <div class="inner">
+            <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+            <figure><img src="assets/mlx_assets/mahaguru_loader_logo.webp" alt="Image" class="guruji_loader_img" ></figure>
+            <small>Loading</small>
+        </div>
+        <!-- end inner -->
+    </div>
+
+    <!-- Loader End -->
+    <!-- Header One Start -->
+    <!-- <header id="header" x-data="{ isOpen: false }" class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    </header> -->
+    <header id="header">
+    </header>
+    <!-- Header One Start -->
+
+
+
+    <!-- Banner Start -->
+
+    <section class="banner position-relative">
+
+        <div class="parallax gallery"
+            style="background-image: url(assets/mlx_assets/images/gallery/gallery_header.webp);"></div>
+
+        <!-- <div class="banner-data text-center">
+
+            <h2 class="text-white font-bold">Gallery</h2>
+
+            <ul class="flex-all">
+
+                <li><a href="index.html" class="text-white">Home</a></li>
+
+                <li><a href="JavaScript:void(0)" class="text-white">Gallery</a></li>
+
+            </ul>
+
+            <img src="https://via.placeholder.com/50x65" alt="Banner Logo">
+
+        </div> -->
+
+    </section>
+
+    <!-- Banner End -->
+
+
+
+    <!-- Our Ministries Start -->
+
+    <section class="gap our-ministries">
+
+        <div class="heading">
+
+            <h2 class="m-auto">Moments with Brahmachari Dr. Girish Chandra Ji – A Photo Collection</h2>
+
+        </div>
+
+        <div class="container">
+
+            <!-- <div class="row" id="ministry-container">
+            </div> -->
+
+
+            <div id="timeline-container"></div>
+
+            <!-- The Gallery component will be rendered here -->
+            <div id="gallery-container" class="mt-16"></div>
+
+        </div>
+
+
+        <div id="carousel-modal" class="hidden fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
+            <!-- Close Button -->
+            <button id="carousel-close" class="absolute top-4 right-4 text-white text-4xl z-50">&times;</button>
+
+            <!-- Navigation Buttons -->
+            <button id="carousel-prev"
+                class="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-gray-800/50 rounded-full hover:bg-gray-700/80">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+            <button id="carousel-next"
+                class="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-gray-800/50 rounded-full hover:bg-gray-700/80">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+
+            <!-- Image Container -->
+            <div class="relative w-full max-w-4xl max-h-full">
+                <img id="carousel-image" src="" alt="Full-screen gallery image"
+                    class="w-full h-auto max-h-[90vh] object-contain">
+                <p id="carousel-counter" class="text-center text-white mt-2"></p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Our Ministries End -->
+
+
+
+
+
+
+
+    <!-- Subscribe Start -->
+
+    <section class="subscribe">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 col-md-12 col-sm-12">
+
+                    <h3 class="text-white">Let’s Keep in Touch!</h3>
+
+                    <p class="text-white">Subscribe to keep up with fresh news and exciting updates.</p>
+
+                </div>
+
+                <div class="col-lg-7 col-md-12 col-sm-12">
+
+                    <form>
+
+                        <input type="text" name="Text" placeholder="Enter Your Email Address...">
+
+                        <button>Subscribe</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Subscribe End -->
+
+
+
+    <!-- Footer One Start -->
+
+    <div id="footer"></div>
+
+    <!-- Footer One End -->
+
+
+
+    <!-- Scroll to top -->
+
+    <button id="scrollTop" class="scrollTopStick"><svg viewBox="0 0 490.523 490.523" fill="#fff" height="15">
+            <path style="fill:#FFC107;"
+                d="M487.411,355.047L252.744,120.38c-4.165-4.164-10.917-4.164-15.083,0L2.994,355.047 c-4.093,4.237-3.976,10.99,0.262,15.083c4.134,3.993,10.687,3.993,14.821,0l227.115-227.115l227.115,227.136 c4.237,4.093,10.99,3.976,15.083-0.261c3.993-4.134,3.993-10.688,0-14.821L487.411,355.047z">
+            </path>
+            <path
+                d="M479.859,373.266c-2.831,0.005-5.548-1.115-7.552-3.115L245.192,143.015L18.077,370.151 c-4.237,4.093-10.99,3.976-15.083-0.262c-3.993-4.134-3.993-10.687,0-14.821l234.667-234.667c4.165-4.164,10.917-4.164,15.083,0 l234.667,234.667c4.159,4.172,4.148,10.926-0.024,15.085C485.388,372.146,482.681,373.265,479.859,373.266z">
+            </path>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+        </svg></button>
+
+    <!-- Donation Modal -->
+    <div class="modal fade donation-model" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Donate Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="donation-data">
+
+                        <h2>Stand Up the Church Climate Crisis</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed totam rem ape eaque.</p>
+
+                        <div class="donation-form">
+
+                            <div class="custom-donation-amount"><span class="text-white">$</span> <input
+                                    class="donated_amount" type="number" placeholder="Custom Amount">
+
+                            </div>
+
+                            <ul class="list-unstyled aos-init aos-animate">
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">5</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">10</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">20</span></a>
+
+                                </li>
+
+                                <li><a class="donating" href="JavaScript:void(0)">$<span
+                                            class="donation_amount">30</span></a>
+
+                                </li>
+
+                            </ul>
+
+                            <a class="theme-btn" href="JavaScript:void(0)">Donate Now</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+
+    <script src="assets/js/jquery.min.js"></script>
+
+
+    <!-- Animate on scroll Js -->
+
+    <script src="assets/js/aos.js"></script>
+
+
+    <!-- Fancybox Js -->
+
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+
+    <!-- Bootstrap Js -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!-- Custom Js -->
+
+    <script src="assets/js/custom.js"></script>
+
+    <script src="./js/header_footer_provider.js"></script>
+
+
+    <script src="./js/maharishi_gallery.js"></script>
+
+    <script src="./js/gallery_carousel.js"></script>
+</body>
+
+</html>
