@@ -316,6 +316,54 @@ The austere and devoted disciple of Maharishi ji, Brahmachari Girish, further sa
         content: `
 परम पूज्य महर्षि महेश योगी जी कहा करते थे कि उनके गुरुदेव का नाम ब्रह्मानन्द था अर्थात् ब्रह्म का आनन्द। जब हम ब्रह्म की बात करते हैं तो पूर्ण ज्ञान की बात करते हैं। ज्ञान में ही क्रियाशक्ति होती है। क्रिया शक्ति जागृत हो जाती है तो आनन्द का अविरल प्रवाह होने लगता है। हमारे लिए एक तरफ गुरुदेव के रूप में ब्रह्म है तो दूसरी तरफ उनके प्रिय शिष्य महेश। इस तरह हमें अपने गुरू ब्रह्मानन्द सरस्वती जी से ब्रह्मा, विष्णु और महेश तीनों का आशीर्वाद प्राप्त होता है। यह सारे गुण हमारी चेतना में जागृत हो जाते हैं। परा प्रकृति में स्थित होकर कर्म करने की शक्ति भी जागृत हो जाती है। यह सब हमें अपनी वैदिक गुरू परम्परा से अर्जित हुआ है।<br><br>महर्षि जी के तपोनिष्ठ शिष्य ब्रह्मचारी गिरीश ने आगे कहा कि एकहि साधे सब सधे अर्थात् हमें ‘मास्टर की’ मिल गई है, यह समूचे अखिल ब्रह्माण्ड की चाभी है। गुरूदेव ब्रह्मानन्द सरस्वती जी के बारे में इतनी बातें हैं कि उनकी गाथा को गाते हुए एक पूरा मानव जीवन कम पड़ जाये। उन्होंने 9 वर्ष की आयु में घर छोड़ दिया था एवं 14 वर्ष की आयु में सन्यास ले लिया था। वह 71 वर्ष की आयु में 1941 में शंकराचार्य बने और जो अद्वितीय कार्य लगभग 13 वर्ष के संक्षिप्त समय में उन्होंने किये वह सदैव अविस्मरणीय रहेंगे। 1942 में गुरूदेव ने नई दिल्ली में यमुना के किनारे यज्ञ किया जिसमें 10,000 से अधिक वैदिक पंडितों ने हिस्सा लिया। इसके पश्चात् भारत को स्वतंत्रता प्राप्त हुई।<br><br>इन्हीं गुरू ने पूरे विश्व को एक अमूल्य भेंट दिया, वह हैं महर्षि महेश योगी जिन्होंने सम्पूर्ण विश्व को आलोकित किया। इन्हीं महर्षि महेश योगी जी ने घोषित किया था कि भारत तो ज्ञान के मामले में जगतगुरु है ही, लेकिन हम सब मिलकर भारत को विश्व का सर्वाधिक शक्तिशाली राष्ट्र बनायेंगे। महर्षि जी सच्चे अर्थों में महर्षि, राजर्षि एवं ब्रह्मर्षि भी थे। आज इतने वर्षों में रोपित यह पौधा वृक्ष हो गया है और इसमें फूल आने लगे हैं लेकिन फल आने में अभी समय लगेगा। तब तक हम सभी मालियों का कार्य है कि हम उस वृक्ष को खाद पानी देते रहें एवं रख रखाव करते रहें। अनेकों वर्ष पूर्व महर्षि द्वारा कही गई बातें आज सार्थक एवं साकार होते दिख रही हैं। यही कारण है कि आज भारत के प्रधान मंत्री द्वारा कही गई प्रत्येक बात को पूरा विश्व समुदाय गम्भीरता से लेता है और उन्हें ऐसा ही सम्मान देता है जैसा कि महर्षि जी ने चाहा था।<br><br>जय गुरु देव, जय महर्षि, जय भारत`
     },
+    18: {
+        image: "assets/mlx_assets/blog_imgs/SarvadevGoumataFromKalyanJune2026H.jpg",
+        date: "04 Jul, 2026",
+        title: "Mother Cow with all Devatas",
+        detail_title: "Mother Cow with all Devatas",
+        author: "Taken from Monthly Kalyan, June 2026",
+        content: `
+If we consider the divine nature of cow from the scriptures, then it becomes clear that in every organ of body, in every hair of its body, is the abode of the Gods. That is why it has been said-
+<br><br>
+Sarvadevmaye Devi Sarvadevairlankrite<br>
+Matarmamabhilashitm safalam kuru nandini
+<br><br>
+According to the scriptures, cow is not an animal, sesame is not an ordinary grain – 
+<br><br>
+'tilan na dhaanya pashvo na gavah' is the nectar noun of cow's milk. What's more, cow urine and dung make the impure body pure; to make the impure place sacred, cow urine and cow dung are used for sprinkling and applying on floor. The place where Mother Cow resides, becomes sacred because it is the place of all Gods and the place of pilgrimage. It is easy to get rid of sins by donating cow; there is no limit even to earn good karmas.
+<br><br>
+In the Ashvamedh Parva of the Mahabharata, Lord Krishna, while describing the form of mother cow as the most divine and the place of pilgrimage, says -
+<br><br>
+'O king! At the time when Kapila cow is donated to an Agnihotri Brahmin, Vishnu and Indra reside in the upper part of its horns. At the root of the horns reside the moon and the Indra. Brahma resides between the horns and Lord Shankar resides in the forehead. Ashwini Kumars reside in both the ears, Moon and Sun in the eyes, Marudgan in the teeth, Saraswati in the tongue, Munigan in the pores, Prajapati in the skin and all four Vedas including Shadanga Pada and Krama reside in the breaths.
+<br><br>
+Fragrances and fragrant flowers reside in the nostrils, all the Vasuganas reside in the lower lip and fire resides in the mouth. Sadhya Deity resides in the room, Parvati resides in the neck, constellations on the back, sky in the place of the stomach, all the places of pilgrimage in the Apana vayu, Ganga Ji in urin and Goddess Lakshmi, endowed with eight blessings, resides in the cow dung. The most beautiful Jyestha Devi resides in the nostrils, ancestors reside in the buttocks and Bhagwati Rama resides in the tail. All the Vishwadevas are situated in both the ribs and in the chest resides the happy Shakti-dhari Kartikeya. Five Vayus reside in the knees and thighs, Gandharvas reside in the middle of the hooves and snakes reside in the front of the hooves. The four oceans full of water are its four udders.
+<br><br>
+In ancient times, Swayambhu Brahmaji had created Kapila Gau after collecting all the fire from Agnihotra and light of Brahmins. Kapila cow is the most sacred among the sacred things, the most auspicious among the auspicious things and the most virtuous of virtues. She is the best penance among penances, the best fast among fasts, the best charity among donations and is the inexhaustible cause of all. Brahma Ji, the Creator of the Universe, has created Kapila Cow to save the world by extracting the light from all the holy places of pilgrimage and temples on earth and all the sacred and beautiful things in the world. Kapila is light of complete brilliance. She is nectar-like, pure, purifying and excellent.
+`
+    },
+    19: {
+        image: "assets/mlx_assets/blog_imgs/SarvadevGoumataFromKalyanJune2026H.jpg",
+        date: "04 Jul, 2026",
+        title: "सर्वदेवमयी गौमाता",
+        detail_title: "सर्वदेवमयी गौमाता",
+        author: "कल्याण, जून 2026 के अंक से साभार",
+        content: `
+गौ के आधिदैविक स्वरूप पर शास्त्रदृष्टि से विचार किया जाये तो पता लगता है कि उसके प्रत्येक अंग में, किंबहुना रोम-रोम में देवताओं का निवास स्थान है। इसीलिये कहा गया है-
+<br><br>
+सर्वदेवमये देवि सर्वदेवैरलंकृते ।<br>
+मातर्ममाभिलषितं सफलं कुरु नन्दिनि ।।
+<br><br>
+शास्त्रदृष्ट्या गोमाता पशु नहीं है, तिल सामान्य अन्न नहीं है- ‘तिलं न धान्यं पशवो न गावः।’ गोदुग्ध की अमृत संज्ञा है। अधिक क्या, गौ का मूत्र और गोबर अपवित्र देह को पवित्र बनाते हैं; अपवित्र स्थान को पवित्र बनाने के लिये भी गोमूत्र और गोमय का प्रोक्षण और लेपन किया जाता है। जिस स्थान पर गौमाता का निवास होता है, वह स्थान सर्वदेवमय और सर्वतीर्थमय होने से पवित्र हो जाता है। गोदान करने से पापनिष्कृति तो सहज है ही; पुण्य की भी सीमा नहीं है।
+<br><br>
+भारत के आश्वमेधिक पर्व में भगवान् श्रीकृष्ण गोमाता के सर्वदेवमय और सर्वतीर्थमय स्वरूप का वर्णन करते हुए कहते हैं-
+<br><br>
+‘हे राजन्! जिस समय अग्निहोत्री ब्राह्मण को कपिला गौ दान में दी जाती है, उस समय उसके सींगों के ऊपरी भाग में विष्णु और इन्द्र निवास करते हैं। सींगों की जड़ में चन्द्रमा और वज्रधारी इन्द्र रहते हैं। सींगों के बीच में ब्रह्मा तथा ललाट में भगवान् शंकर का निवास होता है। दोनों कानों में अश्विनी कुमार, नेत्रों में चन्द्रमा और सूर्य, दाँतों में मरुद्गण, जिह्वा में सरस्वती, रोमकूपों में मुनिगण, चर्म में प्रजापति एवं श्वासों में षडंग पद और क्रम सहित चारों वेदों का निवास है।
+<br><br>
+‘नासिका-छिद्रों में गन्ध और सुगन्धित पुष्प, नीचे के ओठ में सब वसुगण तथा मुख में अग्नि निवास करते हैं। कक्ष में साध्य देवता, गरदन में पार्वती, पीठ पर नक्षत्रगण, ककुद् के स्थान में आकाश, अपान में सारे तीर्थ, मूत्र में साक्षात् गंगा जी तथा गोबर में आठ एैश्वर्यो से सम्पन्न लक्ष्मी जी रहती है। नासिका में परम सुन्दरी ज्येष्ठा देवी, नितम्बों में पितर एवं पूँछ में भगवती रमा रहती हैं। दोनों पसलियों में सभी विश्वेदेव स्थित हैं और छाती में प्रसन्नचित्त शक्तिधारी कार्तिकेय रहते हैं। घुटनों और ऊरुओं में पाँच वायु रहते हैं, खुरों के मध्य में गन्धर्व और खुरों के अग्रभाग में सर्प निवास करते हैं। जल से परिपूर्ण चारों समुद्र उसके चारों स्तर हैं’
+<br><br>
+पूर्वकाल में स्वयम्भू ब्रह्माजी ने अग्निहोत्र तथा ब्राह्मणों के लिये सम्पूर्ण तेजों का संग्रह करके कपिला गौ को उत्पन्न किया था। कपिला गौ पवित्र वस्तुओं में सबसे बढ़कर पवित्र, मंगलजनक पदार्थो में सबसे अधिक मंगलकारिणी तथा पुण्यों में परम पुण्यस्वरूपा है। वह तपस्याओं में श्रेष्ठ तपस्या, व्रतों में उत्तम व्रत, दानों में श्रेष्ठ दान और सबका अक्षय कारण है। पृथ्वी पर जितने पवित्र तीर्थ और मन्दिर हैं तथा संसार में जो कुछ पवित्र और रमणीय वस्तुएँ हैं, उन सबका तेज निकालकर विश्वविधाता ब्रह्मा जी ने जगत् को तारने के लिये कपिला गौ की सृष्टि की है। कपिला सम्पूर्ण तेजों का पुंज है। वह अमृतस्वरूप, मेध्य, शुद्ध, पवित्र करने वाली और उत्तम है।
+`
+    },
 };
 
 
